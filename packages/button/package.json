@@ -1,0 +1,7 @@
+{
+  "name": "@srb/button",
+  "description": "a react component for button",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

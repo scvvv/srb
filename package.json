@@ -1,0 +1,72 @@
+{
+  "name": "srb",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "tooling/*",
+      "website"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "szh rebirth",
+  "main": "index.js",
+  "scripts": {
+    "dedup": "yarn-deduplicate --strategy highest yarn.lock",
+    "test": "lerna run test --no-private --stream",
+    "lint": "lerna run lint --no-private --stream",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "hooks"
+  ],
+  "author": "szh <987599371@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/runtime": "^7.13.10",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.3.0",
+    "@storybook/addon-a11y": "^6.2.7",
+    "@storybook/addon-actions": "^6.2.7",
+    "@storybook/addon-knobs": "^6.2.7",
+    "@storybook/addon-toolbars": "^6.2.7",
+    "@storybook/cli": "^6.2.7",
+    "@storybook/react": "^6.2.7",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react-hooks": "^5.1.1",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "concurrently": "^6.0.1",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-testing-library": "^3.10.2",
+    "jest": "^26.6.3",
+    "jest-watch-typeahead": "^0.6.2",
+    "lerna": "^4.0.0",
+    "prettier": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "storybook-addon-performance": "^0.15.2",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.4",
+    "yarn-deduplicate": "^3.1.0"
+  }
+}

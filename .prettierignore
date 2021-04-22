@@ -1,0 +1,10 @@
+package.json
+.next
+.eslintignore
+.gitignore
+.prettierignore
+LICENSE
+*.lock
+yarn-error.log
+/build
+/public
